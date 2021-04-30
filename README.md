@@ -1,10 +1,12 @@
+Due to file size restrictions, the project with training and test data, as well as the trained language model, can be found here: https://drive.google.com/file/d/1jPHovFqD8M__z10OXhIxfmP1Eb6jn_HY/view?usp=sharing
+
 <!-- ABOUT THE Task -->
-## About the task
+### About the task
 
 Converting the characters in the company name to the correct case, so that the resulting name most likely coincides with the one prescribed in the charter.
 
 <!-- Research -->
-## Research
+### Research
 Truecasing is a NLP problem of finding the proper capitalization of words within a text where such information is unavailable. There are several practical approaches to the Truecasing problem:
 * Sentence segmentation: splitting the input text into sentences and up-casing the first word of each sentence. Some heuristics can also be applied (the character after dot also should be capitalized more likely).
 * Statistical modeling: by training a statistical model on words and group of words which usually appear in capitalized format. [1]
